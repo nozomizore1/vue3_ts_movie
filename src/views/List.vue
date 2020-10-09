@@ -1,9 +1,9 @@
 <template>
-  <div class="home">首页</div>
+  <div>列表页</div>
 </template>
 
 <script lang="ts">
 import { Options, Vue } from 'vue-class-component'
 @Options({})
-export default class Home extends Vue {}
+export default class List extends Vue {}
 </script>
